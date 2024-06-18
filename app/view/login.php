@@ -3,29 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="public/sttylo1.css">
     <title>Document</title>
 </head>
 <body>
-<center>
-<div class="container">
-<body >
-   
-    <form  method="POST" >
-        <img src="imagenes/FERRE.png" alt="aparacera una imagen" h>
-        <h2>Iniciar Sesion</h2>   
-        <input type="email" name="correo" placeholder="correo" required>
+<h1>Iniciar Sesion</h1>   
+    <form   method="POST" action="index.php?action=logiar"  >
+      
+        <input type="email" name="usuario" placeholder="correo" required>
         <br/>
-        <input type="password" name="contrasena" placeholder="contraseña" required>
+        <br/>
+        <input type="password" name="contrasenia" placeholder="contraseña" required>
         <br/>
         <br/>
         <button type="submit">Iniciar Session</button>
         <br/>
-        <a href="guardar_usuario.php">Crear usuario</a>  
-       
+        <a href="registrar.php">Crear usuario</a>  
+
     </form>
-</div>
-</center>
-    
+
+
     
 </body>
 </html>
